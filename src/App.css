@@ -8,7 +8,13 @@
 }
 
 .center-main {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+
+
   justify-content: center;
   align-items: flex-start;
   padding: 0 1em;
@@ -16,10 +22,16 @@
 }
 
 .main-windows {
-  position:static;
+  position: static;
   width: 100%;
   max-width: 1080px;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+
   flex-direction: row;
   margin-bottom: 3em;
 }
@@ -27,6 +39,12 @@
 
 @media only screen and (max-width: 700px) {
   .main-windows {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
     flex-direction: column;
     flex-wrap: wrap;
   }
@@ -44,7 +62,12 @@
   height: 100%;
   padding: 0 1em;
 
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+
   flex-direction: column;
   gap: 3.5em;
 }
@@ -53,6 +76,14 @@
   aspect-ratio: 9/21;
   width: 32%;
   height: 100%;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -353,7 +384,8 @@
   .galeria-block {
     padding: 0px;
   }
-  .servicecardcontainer{
+
+  .servicecardcontainer {
     margin-top: 4em;
   }
 }
