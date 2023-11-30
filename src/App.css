@@ -37,18 +37,7 @@
 }
 
 
-@media only screen and (max-width: 700px) {
-  .main-windows {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
 
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-}
 
 .dropdown-divider {
   width: 100%;
@@ -84,17 +73,6 @@
   display: flex;
   flex-direction: column;
 
-}
-
-@media only screen and (max-width: 700px) {
-  .mainleft {
-    width: 100%;
-    padding: 0 0;
-  }
-
-  .mainright {
-    width: 100%;
-  }
 }
 
 
@@ -145,21 +123,7 @@
   flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 700px) {
-  .artists-container {
-    gap: 1em;
-    padding: 2em 1em;
-    padding-left: 2em;
-  }
-}
 
-@media only screen and (max-width: 410px) {
-  .image-text {
-    font-size: 1em;
-    bottom: 0.5%;
-    right: 1%;
-  }
-}
 
 .artists-container>p {
   margin: 0;
@@ -379,13 +343,45 @@
   border-radius: 2px;
 }
 
-
 @media only screen and (max-width: 700px) {
+  .main-windows {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    .artists-container {
+      gap: 1em;
+      padding: 2em 1em;
+      padding-left: 2em;
+    }
+    .mainleft {
+      width: 100%;
+      padding: 0 0;
+    }
+  
+    .mainright {
+      width: 100%;
+    }
+  }
+
   .galeria-block {
     padding: 0px;
   }
 
   .servicecardcontainer {
     margin-top: 4em;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .image-text {
+    font-size: 1em;
+    bottom: 0.5%;
+    right: 1%;
   }
 }

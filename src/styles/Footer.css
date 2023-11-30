@@ -75,8 +75,18 @@ h3 {
     border-radius: 2px;
 }
 
+.cnpjinfo>hr {
+    width: 100%;
+    margin-top: 1.5em;
+}
 
-
+.cnpjinfo {
+    width: 100%;
+    padding: 0 1em;
+    font-size: 0.8em;
+    text-align: center;
+    color: #404040;
+}
 
 @media only screen and (max-width: 850px) {
     .footer-container {
@@ -98,15 +108,3 @@ h3 {
     }
 }
 
-.cnpjinfo>hr {
-    width: 100%;
-    margin-top: 1.5em;
-}
-
-.cnpjinfo {
-    width: 100%;
-    padding: 0 1em;
-    font-size: 0.8em;
-    text-align: center;
-    color: #404040;
-}
