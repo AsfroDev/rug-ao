@@ -2,7 +2,7 @@ export function CardServices() {
     return (
         <>
             <div className="servicecardcontainer">
-                <h5>Serviços</h5>
+                <h5>Escolha um serviço</h5>
                 <ul>
                     <li className="servicesli">Gravação de áudio</li>
                     <li className="servicesli">Arte da capa</li>
