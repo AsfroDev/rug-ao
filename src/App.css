@@ -84,15 +84,24 @@
   border-radius: 5px;
 }
 
+.main-photo>img{
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
 .image-text {
   position: absolute;
-  bottom: 3%;
-  right: 3%;
+  top: 20%;
+  left: 0%;
   width: 60%;
   font-size: 1.4rem;
   font-style: italic;
   padding: 0.5em;
   color: #404040;
+  color: #ffff;
 }
 
 .artists-conf {
@@ -341,6 +350,11 @@
   border-radius: 2px;
 }
 
+i {
+  padding-left: 0.5em;
+  color: #00b100 ;
+}
+
 @media only screen and (max-width: 700px) {
   .main-windows {
     display: -webkit-box;
@@ -384,3 +398,4 @@
     right: 1%;
   }
 }
+
