@@ -8,6 +8,8 @@
 }
 
 .center-main {
+  width: 100%;
+  height: fit-content;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -22,6 +24,8 @@
 }
 
 .main-windows {
+  width: 100%;
+  height: fit-content;
   position: static;
   width: 100%;
   max-width: 1080px;
