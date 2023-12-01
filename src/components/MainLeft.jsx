@@ -2,6 +2,7 @@ import { CardMainPhoto } from "./CardMainPhoto";
 import { CardArtistsConf } from "./CardArtistsConf";
 import { CardJobs } from "./CardJobs";
 import { QuemSomos } from "./QuemSomos";
+import { Form } from "./Form";
 
 export function MainLeft() {
     return (
@@ -12,7 +13,7 @@ export function MainLeft() {
                 < CardArtistsConf />
                 < CardJobs />
                 < QuemSomos />
-
+                < Form />
 
             </div>
         </>

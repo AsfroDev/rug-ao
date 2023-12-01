@@ -1,5 +1,6 @@
 import { CardGaleriaBlock } from "./CardGaleriaBlock";
 import { CardServices } from "./CardServices";
+import { FormEnd } from "./FormEnd";
 
 export function MainRight() {
     return (
@@ -8,6 +9,7 @@ export function MainRight() {
 
             <CardGaleriaBlock />
             <CardServices />
+            <FormEnd />
             
         </div>
         </>
