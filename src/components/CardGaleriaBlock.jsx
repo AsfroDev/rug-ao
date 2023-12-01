@@ -8,10 +8,10 @@ export function CardGaleriaBlock() {
                         <h5>Galeria de fotos</h5>
                     </div>
                     <div className="galeria-body">
-                        <div className="photo-box"><img src={"photo1.jpg"}/></div>
-                        <div className="photo-box"><img src={"photo2.jpg"}/></div>
-                        <div className="photo-box"><img src={"photo3.jpg"}/></div>
-                        <div className="photo-box"><img src={"photo4.jpg"}/></div>
+                        <div className="photo-box"><img src={"photo1.jpg"} /></div>
+                        <div className="photo-box"><img src={"photo3.jpg"} /></div>
+                        <div className="photo-box"><img src={"photo2.jpg"} /></div>
+                        <div className="photo-box"><img src={"photo4.jpg"} /></div>
                     </div>
                 </div>
 
@@ -20,9 +20,9 @@ export function CardGaleriaBlock() {
                         <h5>Galeria de artes</h5>
                     </div>
                     <div className="galeria-body">
-                        <div className="photo-box"><img src={"art1.png"}/></div>
-                        <div className="photo-box"><img src={"art3.png"}/></div>
-                        <div className="photo-box"><img src={"art2.png"}/></div>
+                        <div className="photo-box"><img src={"art1.png"} /></div>
+                        <div className="photo-box"><img src={"art3.png"} /></div>
+                        <div className="photo-box"><img src={"art2.png"} /></div>
                     </div>
                 </div>
 
@@ -32,16 +32,48 @@ export function CardGaleriaBlock() {
                     </div>
                     <div className="galeria-body">
                         <div className="audio-box">
-                            audio
+
+                            <audio controls controlsList="nodownload">
+                                <source src="1.mp3" type="audio/mpeg"/>
+                            </audio>
+
                         </div>
                         <div className="audio-box">
-                            audio
+                            
+                            
+                        <audio controls controlsList="nodownload">
+                                <source src="2.mp3" type="audio/mpeg"/>
+                            </audio>
+
+
                         </div>
                         <div className="audio-box">
-                            audio
+                            
+
+                        <audio controls controlsList="nodownload">
+                                <source src="3.mp3" type="audio/mpeg"/>
+                            </audio>
+
+
                         </div>
                         <div className="audio-box">
-                            audio
+                            
+                            
+                        <audio controls controlsList="nodownload">
+                                <source src="4.mp3" type="audio/mpeg"/>
+                            </audio>
+
+
+                        </div>
+
+                        <div className="audio-box">
+                            
+                            
+                        <audio controls controlsList="nodownload">
+                                <source src="5.mp3" type="audio/mpeg"/>
+                            </audio>
+
+
                         </div>
                     </div>
                 </div>

@@ -75,6 +75,10 @@ h3 {
     border-radius: 2px;
 }
 
+.footercardcontainer>hr {
+    margin-bottom: 5px;
+}
+
 .cnpjinfo>hr {
     width: 100%;
     margin-top: 1.5em;
@@ -105,6 +109,10 @@ h3 {
 
     .logo {
         padding-left: 0;
+    }
+
+    .footercardcontainer>hr {
+        margin-bottom: 0;
     }
 }
 

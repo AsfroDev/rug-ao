@@ -220,7 +220,7 @@
 }
 
 .jobs-container>h5 {
-  font-size: 2.5em;
+  font-size: 2em;
   padding-left: 0;
   opacity: 70%;
   color: rgb(231, 222, 96);
@@ -312,6 +312,15 @@
   align-items: center;
   padding: 1em;
   max-width: 420px;
+  border-radius: 8px;
+}
+
+.audio-box>audio {
+  width: 100%;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #ffff;
 }
 
 .galeria-head>h5 {
