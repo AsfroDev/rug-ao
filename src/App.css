@@ -107,7 +107,7 @@
 .artists-conf {
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 0em;
 }
 
 .topic-text {
@@ -236,7 +236,7 @@
 }
 
 .text-container>h2 {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.4em;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.6em;
 }
@@ -266,7 +266,7 @@
 .galeria-head {
   width: 100%;
   margin-top: -6px;
-  margin-bottom: 0.5em;
+  margin-bottom: 0em;
   font-size: 1.6em;
   color: #353535;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
