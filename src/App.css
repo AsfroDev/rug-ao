@@ -257,6 +257,10 @@
   padding-top: 0;
   border-radius: 5px;
   margin-left: 0.25em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin-top: 2.7em;
 }
 
 .galeria-fotos {
@@ -392,6 +396,7 @@ i {
   .galeria-block {
     padding: 0px;
     margin-left: 0;
+    margin-top: 0em;
   }
 
   .servicecardcontainer {
