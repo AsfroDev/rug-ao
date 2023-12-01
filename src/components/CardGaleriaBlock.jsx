@@ -8,10 +8,10 @@ export function CardGaleriaBlock() {
                         <h5>Galeria de fotos</h5>
                     </div>
                     <div className="galeria-body">
-                        <div className="photo-box">foto</div>
-                        <div className="photo-box">foto</div>
-                        <div className="photo-box">foto</div>
-                        <div className="photo-box">foto</div>
+                        <div className="photo-box"><img src={"photo1.jpg"}/></div>
+                        <div className="photo-box"><img src={"photo2.jpg"}/></div>
+                        <div className="photo-box"><img src={"photo3.jpg"}/></div>
+                        <div className="photo-box"><img src={"photo4.jpg"}/></div>
                     </div>
                 </div>
 
@@ -20,10 +20,9 @@ export function CardGaleriaBlock() {
                         <h5>Galeria de artes</h5>
                     </div>
                     <div className="galeria-body">
-                        <div className="photo-box">foto</div>
-                        <div className="photo-box">foto</div>
-                        <div className="photo-box">foto</div>
-
+                        <div className="photo-box"><img src={"art1.png"}/></div>
+                        <div className="photo-box"><img src={"art3.png"}/></div>
+                        <div className="photo-box"><img src={"art2.png"}/></div>
                     </div>
                 </div>
 

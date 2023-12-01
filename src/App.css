@@ -84,11 +84,12 @@
   border-radius: 5px;
 }
 
-.main-photo>img{
+.main-photo>img {
   width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
 
@@ -292,6 +293,12 @@
   max-width: 350px;
 }
 
+.photo-box>img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
 .audio-box {
   width: 100%;
   aspect-ratio: 24/5;
@@ -352,7 +359,7 @@
 
 i {
   padding-left: 0.5em;
-  color: #00b100 ;
+  color: #00b100;
 }
 
 @media only screen and (max-width: 700px) {
@@ -371,11 +378,12 @@ i {
       padding: 2em 1em;
       padding-left: 2em;
     }
+
     .mainleft {
       width: 100%;
       padding: 0 0;
     }
-  
+
     .mainright {
       width: 100%;
     }
@@ -398,4 +406,3 @@ i {
     right: 1%;
   }
 }
-
