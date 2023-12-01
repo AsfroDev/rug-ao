@@ -9,7 +9,7 @@ export function CardArtistsConf() {
                     <p className="pmid">NWG</p>
                     <p className="pmini">Guiizão</p>
                     <p className="pmid">Zpliff</p>
-                    <p className="pbig">Gustavo Sintonia</p>
+                    <p className="pbig GSint">Gustavo Sintonia</p>
                     <p className="pmini2">Kayli Smyth</p>
                     <p className="pmid">Luquueta</p>
                     <p>Maythe Marçal</p>
