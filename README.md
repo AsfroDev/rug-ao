@@ -1,8 +1,7 @@
-# React + Vite
+# Página Corporativa de captação de leads.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto front end reúne meus aprendizados de design e reactjs, dando vida a uma página com cores inspiradas no ps1, componentes simples e intuitivos, organizados de forma a convencer o visitante a contratar ou se relacionar com o trabalho apresentado.
 
-Currently, two official plugins are available:
+Rug.ao é minha empresa de audiovisual e produção musical, esta entidade é real.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A página não tem backend até o momento.
