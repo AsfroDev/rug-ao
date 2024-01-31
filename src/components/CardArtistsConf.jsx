@@ -17,6 +17,8 @@ export function CardArtistsConf() {
                     <p className="pbig1">DRADE</p>
                     <p className="pmini2">C@belo</p>
                     <p className="pmid">Elias</p>
+                    <p className="pmini2">Amaral</p>
+                    <p className="pmid">Young Boolt</p>
                 </div>
             </div>
         </>

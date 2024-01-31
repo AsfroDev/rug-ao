@@ -29,19 +29,27 @@ button {
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
+  color: #f9f9f9;
   cursor: pointer;
   transition: border-color 0.25s;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 300ms;
 }
 button:hover {
+  background-color: #f9f9f9;
+  color: #1a1a1a;
   border-color: rgb(136, 136, 136);
+  border: 1px solid;
+  transition: 300ms;
+
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+
 }
 
 @media (prefers-color-scheme: light) {
