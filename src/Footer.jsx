@@ -51,7 +51,7 @@ export function Footer() {
                 <div className="cnpjinfo">
                     <hr />
                     <p>Raider Software e Tech - CNPJ 52.861.511/0001-00
-                        Rua Astolphina Duarte do Pateo, 12, São Paulo - SP - CEP 05756-200</p>
+                        Rua Maringa, 580, São Paulo - SP - CEP 05941-100</p>
                 </div>
             </div>
         </>
