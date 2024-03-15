@@ -3,7 +3,7 @@ export function CardJobs() {
         <>
             <div className="jobs-container">
                 <div className="box">
-                    <h1>84</h1>
+                    <h1>91</h1>
                     <p>Trabalhos concluídos</p>
 
                 </div>
